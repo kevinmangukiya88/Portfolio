@@ -27,15 +27,23 @@ const Projects = () => (
     <GridContainer>
       {projects.map((p, i) => {
         return (
-          <BlogCard key={i} style={{padding:"10px 10px"}}>
-            <Img src={p.image} style={{ objectFit:"contain",height:"90%",width:"98%",borderRadius:"8px" }} />
+          <BlogCard key={i} style={{ padding: "10px 10px" }}>
+            <Img
+              src={p.image}
+              style={{
+                objectFit: "contain",
+                height: "90%",
+                width: "98%",
+                borderRadius: "8px",
+              }}
+            />
             <TitleContent>
               <HeaderThree title>{p.title}</HeaderThree>
               <Hr />
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
-              <TitleContent>App Development</TitleContent>
+              <TitleContent>Android | IOS | Web App Development</TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;

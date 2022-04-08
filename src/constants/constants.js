@@ -2,20 +2,20 @@ export const projects = [
   {
     title: "Kevin Mangukiya",
     image: "/images/kevin.jpeg",
-    tags: ["Flutter", "Firebase", "Photoshop"],
+    tags: ["Flutter", "Firebase", "Photoshop","HybridApps"],
 
     id: 0,
   },
   {
     title: "Hardip Pokiya",
     image: "/images/hardip.jpg",
-    tags: ["Flutter", "Firebase", "Photoshop"],
+    tags: ["Flutter", "Firebase", "Photoshop","HybridApps"],
     id: 1,
   },
   {
     title: "Dhruv Bhagat",
     image: "/images/dhruv.jpeg",
-    tags: ["Flutter", "Firebase", "Photoshop"],
+    tags: ["Flutter", "Firebase", "Photoshop","HybridApps"],
     id: 2,
   },
 ];
