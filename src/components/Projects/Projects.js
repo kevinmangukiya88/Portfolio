@@ -46,7 +46,7 @@ const Projects = () => (
               <TitleContent>Android | IOS | Web App Development</TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
-                  return <Tag key={i}>{t}</Tag>;
+                  return <Tag key={i} style={{marginLeft:"1rem"}}>{t}</Tag>;
                 })}
               </TagList>
             </div>

@@ -34,6 +34,7 @@ export const BlogCard = styled.div`
 export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
+  font-size: 2rem;
   width: 100%;
 
 `;
@@ -109,4 +110,8 @@ padding: 2rem;
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
+@media ${(props) => props.theme.breakpoints.sm} {
+  font-size: 1.2rem;
+  
+}
 `
